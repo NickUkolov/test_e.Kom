@@ -1,0 +1,22 @@
+{
+  "forms": {
+    "1": {
+      "name": "user_form",
+      "user_mail": "email",
+      "user_phone": "phone"
+    },
+    "2": {
+      "name": "hospital_form",
+      "hospital_text": "text",
+      "hospital_date": "date",
+      "hospital_mail": "email"
+    },
+    "3": {
+      "name": "company_form",
+      "company_text": "text",
+      "company_date": "date",
+      "company_mail": "email",
+      "company_phone": "phone"
+    }
+  }
+}

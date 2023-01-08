@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+curl -d "user_mail=sany@mail.ry&user_phone=+79446367923" http://localhost:5000/get_form
+echo "-------------------"
+
+curl -d "hospital_mail=orde@mail.ru&hospital_text=any text" http://localhost:5000/get_form
+echo "-------------------"
+
+curl -d "company_text=some text&company_date=12.12.2012&company_mail=company@mail.ru&company_phone=+79224682081" http://localhost:5000/get_form
+echo "-------------------"
+
+echo "Non valid form"
+curl -d "company_phone=+222222222&company_date=not_date&company_mail=not_email" http://localhost:5000/get_form
+echo "-------------------"
